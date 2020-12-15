@@ -1,0 +1,62 @@
+ErrorDocument 403 /page15979079.html
+ErrorDocument 404 /page15979079.html
+
+DirectoryIndex page15774801.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^personal_projects$ page15845012.html [NC]
+RewriteRule ^personal_projects/$ page15845012.html [NC]
+
+RewriteRule ^work_experience$ page15845099.html [NC]
+RewriteRule ^work_experience/$ page15845099.html [NC]
+
+RewriteRule ^header$ page15845804.html [NC]
+RewriteRule ^header/$ page15845804.html [NC]
+
+RewriteRule ^drone_landing_system$ page15924681.html [NC]
+RewriteRule ^drone_landing_system/$ page15924681.html [NC]
+
+RewriteRule ^travel_stories$ page15925576.html [NC]
+RewriteRule ^travel_stories/$ page15925576.html [NC]
+
+RewriteRule ^bali_2019$ page15925926.html [NC]
+RewriteRule ^bali_2019/$ page15925926.html [NC]
+
+RewriteRule ^hobbies$ page15927713.html [NC]
+RewriteRule ^hobbies/$ page15927713.html [NC]
+
+RewriteRule ^articles$ page15929283.html [NC]
+RewriteRule ^articles/$ page15929283.html [NC]
+
+RewriteRule ^random_photos$ page15929755.html [NC]
+RewriteRule ^random_photos/$ page15929755.html [NC]
+
+RewriteRule ^crave_for_flying$ page15933196.html [NC]
+RewriteRule ^crave_for_flying/$ page15933196.html [NC]
+
+RewriteRule ^balagan$ page15943559.html [NC]
+RewriteRule ^balagan/$ page15943559.html [NC]
+
+RewriteRule ^malaysia_2019$ page15944668.html [NC]
+RewriteRule ^malaysia_2019/$ page15944668.html [NC]
+
+RewriteRule ^thailand_2019$ page15945071.html [NC]
+RewriteRule ^thailand_2019/$ page15945071.html [NC]
+
+RewriteRule ^usa_2019$ page15945556.html [NC]
+RewriteRule ^usa_2019/$ page15945556.html [NC]
+
+RewriteRule ^japan_2019$ page15953094.html [NC]
+RewriteRule ^japan_2019/$ page15953094.html [NC]
+
+RewriteRule ^error_404$ page15979079.html [NC]
+RewriteRule ^error_404/$ page15979079.html [NC]
+
+RewriteRule ^members/ ma_start.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild6635-6233-4738-b835-383162616136/favicon.ico [R=302,L]
+
